@@ -46,7 +46,7 @@ public class SCOSEntry extends Activity implements OnTouchListener,
                 && Math.abs(velocityX) > FLING_MIN_VELOCITY) {
 
             Intent intent = new Intent();
-            intent.putExtra("StoM", "FromEntr");
+            intent.putExtra("from", "FromEntry");
             intent.setClass(SCOSEntry.this, MainScreen.class);
             startActivity(intent);
             Toast.makeText(this, "系统主页面", Toast.LENGTH_SHORT).show();

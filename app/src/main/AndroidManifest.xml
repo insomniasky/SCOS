@@ -28,7 +28,8 @@
                 <category android:name="scos.intent.category.SCOSLAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginOrRegister"></activity>
+        <activity android:name=".LoginOrRegister" />
+        <activity android:name=".FoodView"></activity>
     </application>
 
 </manifest>
